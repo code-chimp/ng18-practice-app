@@ -1,0 +1,11 @@
+header {
+  @apply mx-auto my-12 text-center;
+}
+
+header img {
+  @apply h-16 w-16 bg-transparent object-contain;
+}
+
+header h1 {
+  @apply text-2xl;
+}

@@ -1,0 +1,13 @@
+table {
+  @apply mx-auto my-8 max-w-3xl table-fixed border-spacing-4 p-4 text-right;
+}
+
+thead {
+  @apply text-algae-green-600 text-xs;
+}
+
+tbody {
+  font-family: 'Roboto Condensed', sans-serif;
+
+  @apply text-algae-green-500 text-sm;
+}

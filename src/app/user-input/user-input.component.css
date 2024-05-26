@@ -1,0 +1,27 @@
+form {
+  background: linear-gradient(180deg, #307e6c, #2b996d);
+
+  @apply mx-auto my-8 max-w-[30rem] rounded p-4 shadow;
+}
+
+.input-group {
+  @apply flex justify-evenly gap-6;
+}
+
+label {
+  font-family: 'Roboto Condensed', sans-serif;
+
+  @apply mb-1 block text-xs font-bold uppercase;
+}
+
+input {
+  @apply border-algae-green-700 text-algae-green-300 w-full rounded border border-solid bg-transparent p-2 text-base;
+}
+
+button {
+  @apply border-algae-green-700 bg-algae-green-600 w-full cursor-pointer rounded border border-solid p-2 text-base font-bold uppercase text-gray-900;
+}
+
+button:hover {
+  @apply bg-algae-green-400;
+}
