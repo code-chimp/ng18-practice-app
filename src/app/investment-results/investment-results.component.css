@@ -3,11 +3,15 @@ table {
 }
 
 thead {
-  @apply text-algae-green-600 text-xs;
+  @apply text-xs text-algae-green-600;
 }
 
 tbody {
   font-family: 'Roboto Condensed', sans-serif;
 
-  @apply text-algae-green-500 text-sm;
+  @apply text-sm text-algae-green-500;
+}
+
+p {
+  @apply mx-auto max-w-3xl text-center;
 }

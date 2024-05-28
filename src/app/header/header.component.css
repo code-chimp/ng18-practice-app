@@ -1,9 +1,9 @@
 header {
-  @apply mx-auto my-12 text-center;
+  @apply mx-auto my-12 flex max-w-[30rem] flex-col items-center text-center;
 }
 
 header img {
-  @apply h-16 w-16 bg-transparent object-contain;
+  @apply h-[5rem] w-[5rem] bg-transparent object-contain;
 }
 
 header h1 {

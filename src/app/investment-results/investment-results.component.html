@@ -1,1 +1,26 @@
-<p>investment-results works!</p>
+@if (returns.length) {
+  <table>
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Investment Value</th>
+        <th>Interest (Year)</th>
+        <th>Total Interest</th>
+        <th>Invested Capital</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (year of returns; track year.year) {
+        <tr>
+          <td>{{ year.year }}</td>
+          <td>{{ year.valueEndOfYear | currency }}</td>
+          <td>{{ year.interest | currency }}</td>
+          <td>{{ year.totalInterest | currency }}</td>
+          <td>{{ year.totalAmountInvested | currency }}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+} @else {
+  <p>Please enter some values and press "Calculate"</p>
+}

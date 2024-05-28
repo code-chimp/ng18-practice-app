@@ -1,17 +1,24 @@
 {
   "name": "ng18-practice-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Another toy application to practice modern Angular with Tailwind CSS",
+  "private": true,
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Tim Goshinski",
+    "email": "tim@code-chimp.com",
+    "url": "https://code-chimp.com"
+  },
+  "volta": {
+    "node": "20.13.1",
+    "pnpm": "9.1.2"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
-  },
-  "private": true,
-  "volta": {
-    "node": "20.13.1",
-    "pnpm": "9.1.2"
   },
   "dependencies": {
     "@angular/animations": "^18.0.0",
